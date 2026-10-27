@@ -1,23 +1,34 @@
-# PhD Project 2 : Theta and Alpha Power are modulated by Sensory Reliability Early during Audio-visual Integration.
+# How does sensory reliability change brain rhythms?
 
-<br>
+### PhD project 2 · Theta and alpha power during audio-visual integration
 
-Oscillations have been found in a variety of multisensory tasks, and are thought
-to be a fundamental process by which the brain combines information across the
-senses. However, it has yet to be investigated whether oscillatory power is
-modulated by the reliability of sensory information. Here we used a timefrequency approach to investigate whether the oscillatory power underlying
-auditory signals was modulated by changes in visual reliability during audiovisual integration. Additionally, we examined whether any changes in oscillatory 
-28
-power occurred at the same time as changes in perceptual weighting. Our results
-revealed that auditory power during audio-visual conditions is modulated by
-visual reliability early during the perceptual process. Specifically, we found
-significantly lower theta power and higher alpha power during audio-visual
-conditions where the visual reliability was low, relative to conditions where
-visual reliability was high. These modulations in power occurred early in the trial
-from stimulus onset to 150 ms, and from 252 ms to 300 ms for theta and alpha
-respectively, over fronto-central sites. Together these results suggest a role of
-theta and alpha in sensory reweighting, occurring at an early stage during audiovisual integration. 
+This project asks whether **the reliability of what we see changes brain activity while we process sound**, and when those changes emerge.
 
-[You can find the data here](https://osf.io/9ym6a/)
+**[Read the PhD thesis](https://theses.gla.ac.uk/8874/)** · **[Explore the data on OSF](https://osf.io/9ym6a/)**
 
-[You can find the paper here](http://theses.gla.ac.uk/8874/1/2018BoylePhD.pdf)
+## What I investigated
+
+A time-frequency analysis examined EEG power during audio-visual conditions with higher or lower visual reliability. The focus was on theta and alpha rhythms, and their relationship to sensory reweighting.
+
+## What the study found
+
+Lower visual reliability was associated with lower theta power and higher alpha power over fronto-central sites. These effects appeared early during audio-visual processing, suggesting a role for these rhythms in adjusting how sensory information is weighted. The study is described in Chapter 4 of the thesis.
+
+## What's in this repository?
+
+| Files | Purpose |
+|---|---|
+| [Analysis_TFR.m](Analysis_TFR.m) | Time-frequency analysis, baseline normalisation and subsequent group-level analysis. |
+| [Original scripts ZIP](analysis_scripts.zip) | Archived analysis bundle. |
+
+## Using the code
+
+This is an archive of the original research code. The scripts contain paths to the original lab drives and expect study data and intermediate MATLAB files outside this repository. Start with the linked data and research write-up, then review paths and dependencies before running individual sections.
+
+The source uses MATLAB and FieldTrip functions alongside lab-specific helpers. The original MATLAB/toolbox versions are not pinned here, and the analysis has not been rerun as part of this README refresh. The original scripts and ZIP archives are preserved.
+
+## Related research
+
+[Project 1](https://github.com/stephanieboyle/phd_project_1) · [Project 3](https://github.com/stephanieboyle/phd_project_3)
+
+[More about me](https://stephanieboyle.github.io/)
